@@ -15,12 +15,19 @@
   백성,정안군(이방원,태종),명운,토지,도망,왕위
 
   아들 정안군이 왕자의 난을 일으킨 사건이 있었다
+  
+  ![태조_군사](https://user-images.githubusercontent.com/70261906/98579658-4c2f3100-2302-11eb-9dc2-e75dc7ef5fb8.png)
+
+  
 
 - 제사(169건)
 
   중추원, 절제,군사,왜구,수군
 
   초기 잦은 전란이 있던 시기로 전쟁관련 제사로 추정됨
+  
+![태조_제사](https://user-images.githubusercontent.com/70261906/98579651-49ccd700-2302-11eb-9e72-a3541f7a057f.png)
+
 
 # 2. 정종
 
@@ -59,20 +66,31 @@
 - 백성(2624건)
 
   의논,수령,곡식,마음,정통
+  
+  ![세종_백성](https://user-images.githubusercontent.com/70261906/98579972-acbe6e00-2302-11eb-8fe1-975b50e061fc.png)
+  
 
 - 의논(1123건)
 
   백성에 대한 의논이 가장 많고 다음으로 군사,제사,정통성이 있음
 
   백성,군사,제사,의정부,사신,중국,아들
+  
+  ![세종_의논](https://user-images.githubusercontent.com/70261906/98579978-ae883180-2302-11eb-8f86-8f44a127edff.png)
 
 - 학문(227건)
 
   어찌,백성,문무,집현전,세자
+  
+  ![세종_학문](https://user-images.githubusercontent.com/70261906/98579982-afb95e80-2302-11eb-902f-26d5bbe258f9.png)
+  
 
 - 훈민정음(5건)
 
   발성,글자,소리,중국,집현전,초성,중성,종성,조화
+  
+  ![세종_훈민정음](https://user-images.githubusercontent.com/70261906/98579986-b0ea8b80-2302-11eb-8c26-21234b37fde3.png)
+
 
 
 
