@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # 멀티캠퍼스 딥러닝기반 AI엔지니어링 프로젝트-2
 
 ## 조선 왕들은 *어떤* 사람들 인가?
@@ -20,13 +18,13 @@ LDA 토픽모델링
 
 ***
 
-![image-20201109163433000](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109163433000.png)
+![image-20201109163433000](https://user-images.githubusercontent.com/59459751/98516571-08abd700-22b0-11eb-8a4a-e88a70d0f138.png)
 
 network 그래프결과
 
 ***
 
-![image-20201109163758451](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109163758451.png)
+![image-20201109163758451](https://user-images.githubusercontent.com/59459751/98516598-0f3a4e80-22b0-11eb-91c9-8ef2cf1bcc05.png)
 
 - 폐단
   - 기사
@@ -41,13 +39,13 @@ LDA 토픽모델링
 
 ***
 
-![image-20201109163855121](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109163855121.png)
+![image-20201109163855121](https://user-images.githubusercontent.com/59459751/98516602-12353f00-22b0-11eb-9756-37d9d4130cf4.png)
 
 network 그래프
 
 ***
 
-![image-20201109163921578](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109163921578.png)
+![image-20201109163921578](https://user-images.githubusercontent.com/59459751/98516604-12353f00-22b0-11eb-974d-09ff07f6f6e1.png)
 
 - 흉년
   - 고을 : 고을의 재해가 심하면 대동미와 군포를 감하기를 청함
@@ -59,13 +57,13 @@ LDA 토픽모델링
 
 ***
 
-![image-20201109164049783](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109164049783.png)
+![image-20201109164049783](https://user-images.githubusercontent.com/59459751/98516605-12cdd580-22b0-11eb-8a65-4c09494b3bc5.png)
 
 network 그래프
 
 ***
 
-![image-20201109164102758](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109164102758.png)
+![image-20201109164102758](https://user-images.githubusercontent.com/59459751/98516607-13666c00-22b0-11eb-8bbf-8ee4a3b476a4.png)
 
 - 풍년
   - 군량
@@ -77,13 +75,13 @@ LDA 토픽모델링
 
 ***
 
-![image-20201109164121880](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109164121880.png)
+![image-20201109164121880](https://user-images.githubusercontent.com/59459751/98516609-13666c00-22b0-11eb-9394-7c044cbded60.png)
 
 network 그래프
 
 ***
 
-![image-20201109164144528](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109164144528.png)
+![image-20201109164144528](https://user-images.githubusercontent.com/59459751/98516610-13ff0280-22b0-11eb-957b-b01f1b95d24b.png)
 
 - 상소
   - 김창집,조태구
@@ -97,7 +95,7 @@ LDA 토픽모델링
 
 ***
 
-![image-20201109164214173](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109164214173.png)
+![image-20201109164214173](https://user-images.githubusercontent.com/59459751/98516614-13ff0280-22b0-11eb-8309-4861c70c1b06.png)
 
 - 나오는 인물들에 대한 이야기: http://dk7117.egloos.com/v/2496207
 
@@ -115,13 +113,13 @@ LDA 토픽모델링
 
 ***
 
-![image-20201109164451240](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109164451240.png)
+![image-20201109164234405](https://user-images.githubusercontent.com/59459751/98516617-14979900-22b0-11eb-9eb2-c5a0db588fca.png)
 
 network 그래프
 
 ***
 
-![image-20201109164504847](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109164504847.png)
+![image-20201109164504847](https://user-images.githubusercontent.com/59459751/98516621-15302f80-22b0-11eb-99d9-c954edb18a6c.png)
 
 - 폐단
   - 개국
@@ -134,13 +132,13 @@ LDA 토픽모델링
 
 ***
 
-![image-20201109164523414](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109164523414.png)
+![image-20201109164523414](https://user-images.githubusercontent.com/59459751/98516622-15302f80-22b0-11eb-9adf-4d6c74208d4d.png)
 
 network 그래프
 
 ***
 
-![image-20201109164539136](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109164539136.png)
+![image-20201109164539136](https://user-images.githubusercontent.com/59459751/98516624-15c8c600-22b0-11eb-931e-4ebf3816f1ce.png)
 
 ## 3. 순조
 
@@ -156,13 +154,13 @@ LDA 토픽모델링
 
 ***
 
-![image-20201109165815998](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109165815998.png)
+![image-20201109165815998](https://user-images.githubusercontent.com/59459751/98516625-15c8c600-22b0-11eb-9e27-052258574019.png)
 
 network 그래프
 
 ***
 
-![image-20201109165833940](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109165833940.png)
+![image-20201109165833940](https://user-images.githubusercontent.com/59459751/98516627-16615c80-22b0-11eb-84f5-d46e476d6ad2.png)
 
 - 폐단
   - 현감
@@ -174,13 +172,13 @@ LDA 토픽모델링
 
 ***
 
-![image-20201109165852978](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109165852978.png)
+![image-20201109165852978](https://user-images.githubusercontent.com/59459751/98516630-16615c80-22b0-11eb-9ddf-6bbebd94db2a.png)
 
 network 그래프
 
 ***
 
-![image-20201109165909430](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109165909430.png)
+![image-20201109165909430](https://user-images.githubusercontent.com/59459751/98516633-16f9f300-22b0-11eb-8ffe-d91d3629a067.png)
 
 - 흉년
   - 폐단
@@ -191,13 +189,13 @@ LDA 토픽모델링
 
 ***
 
-![image-20201109165931072](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109165931072.png)
+![image-20201109165931072](https://user-images.githubusercontent.com/59459751/98516634-16f9f300-22b0-11eb-80eb-87fdc951f741.png)
 
 network 그래프
 
 ***
 
-![image-20201109165943731](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109165943731.png)
+![image-20201109165943731](https://user-images.githubusercontent.com/59459751/98516636-17928980-22b0-11eb-82b3-362280bf4e24.png)
 
 - 풍년
   - 사람
@@ -209,13 +207,13 @@ LDA 토픽모델링
 
 ***
 
-![image-20201109170009736](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109170009736.png)
+![image-20201109170009736](https://user-images.githubusercontent.com/59459751/98516638-17928980-22b0-11eb-8f58-3dd3c03fac32.png)
 
 network 그래프
 
 ***
 
-![image-20201109170022921](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109170022921.png)
+![image-20201109170022921](https://user-images.githubusercontent.com/59459751/98516640-182b2000-22b0-11eb-99e2-0f802de513a1.png)
 
 ## 4. 정조
 
@@ -231,13 +229,13 @@ LDA 토픽모델링
 
 ***
 
-![image-20201109170845460](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109170845460.png)
+![image-20201109170845460](https://user-images.githubusercontent.com/59459751/98516643-18c3b680-22b0-11eb-994e-30defd5cae6b.png)
 
 network 그래프
 
 ***
 
-![image-20201109170904148](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109170904148.png)
+![image-20201109170904148](https://user-images.githubusercontent.com/59459751/98516647-18c3b680-22b0-11eb-8e61-c9970f624176.png)
 
 - 폐단
   - 상소
@@ -252,13 +250,13 @@ LDA 토픽모델링
 
 
 
-![image-20201109171156380](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109171156380.png)
+![image-20201109171156380](https://user-images.githubusercontent.com/59459751/98516648-195c4d00-22b0-11eb-946d-a0d5946e36c3.png)
 
 network 그래프
 
 ***
 
-![image-20201109171245232](C:\Users\azaza\AppData\Roaming\Typora\typora-user-images\image-20201109171245232.png)
+![image-20201109171245232](https://user-images.githubusercontent.com/59459751/98516649-195c4d00-22b0-11eb-8039-bb862a8997e1.png)
 
 # 왕별 분석
 
@@ -308,5 +306,3 @@ network 그래프
 
 
 ![영조](https://user-images.githubusercontent.com/47618340/98512378-946e3500-22a9-11eb-9c66-a8807699ff1b.png)
->>>>>>> 2426d1ffa4c41a5d87ebbcc90769298e44130761
-
