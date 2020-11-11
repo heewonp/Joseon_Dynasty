@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lagn="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+    <!-- 공통 헤더-->
+    <th:block th:replace="fragments/head :: headFragment"></th:block>
+
+    <body>
+        <div class="d-flex" id="wrapper">
+                <!-- 사이드바-->
+                <th:block th:replace="fragments/side :: sidebarFragment"></th:block>
+                <div id="page-content-wrapper">
+                    <th:block th:replace="fragments/header :: headerFragment"></th:block>
+                    <div class="container-fluid">
+                        <!-- 본문-->
+                        <th:block layout:fragment="content">
+                            <div class="row my-2"> 
+                                <div class="col-lg-6"> 
+                                    <div class="card"> 
+                                        <div class="card-body"> 
+                                            <canvas id="king1"></canvas> 
+                                        </div> 
+                                        <div class="card card-body text-center text-white bg-dark"> 
+                                            <h3>태조-제도</h3> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                                <div class="col-lg-6"> 
+                                    <div class="card"> 
+                                        <div class="card-body"> 
+                                            <canvas id="king4"></canvas> 
+                                        </div> 
+                                        <div class="card card-body text-center text-white bg-dark"> 
+                                            <h3>세종-김종서</h3> 
+                                        </div> 
+                                    </div> 
+                                </div>
+                        </th:block>
+                    </div>
+                    <div class="row my-2"> 
+                        <div class="col-lg-6"> 
+                            <div class="card"> 
+                                <div class="card-body"> 
+                                    <canvas id="king26"></canvas> 
+                                </div> 
+                                <div class="card card-body text-center text-white bg-dark"> 
+                                    <h3>고종-개방</h3> 
+                                </div> 
+                            </div> 
+                        </div> 
+                        <div class="col-lg-6"> 
+                            <div class="card"> 
+                                <div class="card-body"> 
+                                    <canvas id="king27"></canvas> 
+                                </div> 
+                                <div class="card card-body text-center text-white bg-dark"> 
+                                    <h3>순조-국민</h3> 
+                                </div> 
+                            </div> 
+                        </div>
+                </th:block>
+            </div>
+                    <!-- 공통 하단-->
+                    <th:block th:replace="fragments/footer :: footerFragment"></th:block>
+                </div>
+                <script>
+                    $("#menu-toggle").click(function(e) {
+                      e.preventDefault();
+                      $("#wrapper").toggleClass("toggled");
+                    });
+                    var ctx = document.getElementById('king1'); 
+                    var myChart = new Chart(ctx, {
+                         type: 'pie', 
+                         data: { labels: ['사람','임금','전하','백성','군사','나라','정안군','하늘','왕씨','고려'], 
+                         datasets: [{ label: '제도키워드에서 많이 언급된 단어수 = ',
+                         data: [295,161,158,101,94,90,85,59,43,39], 
+                         backgroundColor: [ 
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)',
+                            'rgba(0, 212, 255, 0.2)',
+                            'rgba(0, 255, 50, 0.2)',
+                            'rgba(255, 0, 147, 0.2)',
+                            'rgba(228, 255, 0, 0.2)'
+                             ], 
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)',
+                            'rgba(0, 212, 255, 1)',
+                            'rgba(0, 255, 50, 1)',
+                            'rgba(255, 0, 147, 1)',
+                            'rgba(228, 255, 0, 1)' ],
+                             borderWidth: 1
+                             }]
+                            },
+                        options: {
+                            scales: { 
+                                yAxes: [{ 
+                                    ticks: { 
+                                        beginAtZero: true 
+                                    }
+                                 }] 
+                                },
+                            title:{
+                                display:true,
+                                text:'제도키워드에 따른 많이 언급된 단어수'
+                            }
+                            } 
+                        });
+                        var ctx = document.getElementById('king4'); 
+                        var myChart = new Chart(ctx, {
+                         type: 'pie', 
+                         data: { labels: ['임금','의논','군사','생각','나라','야인','함길도','중국','도절제사','황희'], 
+                         datasets: [{ label: '제도키워드에서 많이 언급된 단어수 = ',
+                         data: [934,924,515,426,392,320,314,265,229,230], 
+                         backgroundColor: [ 
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)',
+                            'rgba(0, 212, 255, 0.2)',
+                            'rgba(0, 255, 50, 0.2)',
+                            'rgba(255, 0, 147, 0.2)',
+                            'rgba(228, 255, 0, 0.2)'
+                             ], 
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)',
+                            'rgba(0, 212, 255, 1)',
+                            'rgba(0, 255, 50, 1)',
+                            'rgba(255, 0, 147, 1)',
+                            'rgba(228, 255, 0, 1)' ],
+                             borderWidth: 1
+                             }]
+                            },
+                        options: {
+                            scales: { 
+                                yAxes: [{ 
+                                    ticks: { 
+                                        beginAtZero: true 
+                                    }
+                                 }] 
+                                },
+                            title:{
+                                display:true,
+                                text:'김종서키워드에 따른 많이 언급된 단어수'
+                            }
+                            } 
+                        });
+                        var ctx = document.getElementById('king26'); 
+                        var myChart = new Chart(ctx, {
+                         type: 'pie', 
+                         data: { labels: ['중국','조선','일본','통상','항구','정사','문제','신하','서양','군사'], 
+                         datasets: [{ label: '제도키워드에서 많이 언급된 단어수 = ',
+                         data: [39,38,35,28,22,22,21,19,19,18], 
+                         backgroundColor: [ 
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)',
+                            'rgba(0, 212, 255, 0.2)',
+                            'rgba(0, 255, 50, 0.2)',
+                            'rgba(255, 0, 147, 0.2)',
+                            'rgba(228, 255, 0, 0.2)'
+                             ], 
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)',
+                            'rgba(0, 212, 255, 1)',
+                            'rgba(0, 255, 50, 1)',
+                            'rgba(255, 0, 147, 1)',
+                            'rgba(228, 255, 0, 1)' ],
+                             borderWidth: 1
+                             }]
+                            },
+                        options: {
+                            scales: { 
+                                yAxes: [{ 
+                                    ticks: { 
+                                        beginAtZero: true 
+                                    }
+                                 }] 
+                                },
+                            title:{
+                                display:true,
+                                text:'개방키워드에 따른 많이 언급된 단어수'
+                            }
+                            } 
+                        });
+                        var ctx = document.getElementById('king27'); 
+                        var myChart = new Chart(ctx, {
+                         type: 'pie', 
+                         data: { labels: ['나라','한국','사람','일본','국민','우리나라','정부','백성','조약','독립'], 
+                         datasets: [{ label: '제도키워드에서 많이 언급된 단어수 = ',
+                         data: [104,69,67,59,55,49,29,28,22,20], 
+                         backgroundColor: [ 
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)',
+                            'rgba(0, 212, 255, 0.2)',
+                            'rgba(0, 255, 50, 0.2)',
+                            'rgba(255, 0, 147, 0.2)',
+                            'rgba(228, 255, 0, 0.2)'
+                             ], 
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)',
+                            'rgba(0, 212, 255, 1)',
+                            'rgba(0, 255, 50, 1)',
+                            'rgba(255, 0, 147, 1)',
+                            'rgba(228, 255, 0, 1)' ],
+                             borderWidth: 1
+                             }]
+                            },
+                        options: {
+                            scales: { 
+                                yAxes: [{ 
+                                    ticks: { 
+                                        beginAtZero: true 
+                                    }
+                                 }] 
+                                },
+                            title:{
+                                display:true,
+                                text:'국민키워드에 따른 많이 언급된 단어수'
+                            }
+                            } 
+                        });
+                  </script>
+        </div>
+    </body>
+</html>
