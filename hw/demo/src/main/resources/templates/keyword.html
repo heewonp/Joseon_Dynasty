@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lagn="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+    <!-- 공통 헤더-->
+    <th:block th:replace="fragments/head :: headFragment"></th:block>
+
+    <body>
+        <div class="d-flex" id="wrapper">
+                <!-- 사이드바-->
+                <th:block th:replace="fragments/side :: sidebarFragment"></th:block>
+                <div id="page-content-wrapper">
+                    <th:block th:replace="fragments/header :: headerFragment"></th:block>
+                    <div class="container-fluid">
+                        <!-- 본문-->
+                        <th:block layout:fragment="content">
+                            <div class="row"> 
+                                <div class="col-sm-2"> 
+                                    <button type="button" class="btn btn-info" data-toggle="popover" title="연관키워드" data-html="true" style="width: 100%;height:100%;"
+                                            data-content="백성:#도읍#제사#태백성(금성)</br>군사:#백성#정안군(이방원,태종)#명운#토지#도망#왕위</br>제사:#중추원#절제#군사#왜구#수군">
+                                            1대태조
+                                        </button>
+                                </div>
+                                <div class="col-sm-2"> 
+                                    <button type="button" class="btn btn-info" data-toggle="popover" title="연관키워드" data-html="true"style="width: 100%;height:100%;"
+                                            data-content="백성:#태상왕#태백성(금성)#하늘#건문#풍속</br>상소:#문하부#탄핵#도감#종친#노비#공생#신하#조영무#이천우</br>제사:#정안(이방원,태종)#군사#사병#공이#명령#화살#삼군부">
+                                            2대정종
+                                    </button>
+                                </div>
+                                <div class="col-sm-2"> 
+                                    <button type="button" class="btn btn-info" data-toggle="popover" title="연관키워드" data-html="true"style="width: 100%;height:100%;"
+                                            data-content="백성:#태백성#영락#하늘#폐단#아들)</br>제사:#문소전(태조와 태종의 위패를 모신 사당)#도절(군대관리직-조선초까지 존재함)#병마(군사)#수군#관찰사#종묘">
+                                            3대태종
+                                    </button>
+                                </div>
+                                <div class="col-sm-2"> 
+                                    <button type="button" class="btn btn-info" data-toggle="popover" title="연관키워드" data-html="true"style="width: 100%;height:100%;"
+                                            data-content="백성:#의논#수령#곡식#마음#정통</br>의논:#백성#군사#제사#의정부#사신#중국#아들
+                                            </br>학문:#어찌#백성#문무#집현전#세자</br>훈민정음:#발성#글자#소리#중국#집현전#초성#중성#종성#조화">
+                                            4대세종
+                                    </button>
+                                </div>
+                                <div class="col-sm-2"> 
+                                    <button type="button" class="btn btn-info" data-toggle="popover" title="연관키워드" data-html="true" style="width: 100%;height:100%;"
+                                        data-content="백성:#경태#고을#폐단#군사#즉위</br>폐단:#고을#대납#김종서#금지</br>제사:#군사#백성#평안도#함길도">
+                                        5대문종
+                                    </button>
+                                </div>
+                                <div class="col-sm-2"> 
+                                    <button type="button" class="btn btn-info" data-toggle="popover" title="연관키워드" data-html="true" style="width: 100%;height:100%;"
+                                        data-content="백성:#대신#생각#의논#사신</br>">
+                                        6대단종
+                                    </button>
+                                </div>
+                                <div class="col-sm-2"> 
+                                    <button type="button" class="btn btn-info" data-toggle="popover" title="연관키워드" data-html="true" style="width: 100%;height:100%;"
+                                        data-content="백성:#군사#관찰사#고을</br>군사:#군사#병조#관찰사#성화#장수#자리</br>심신:#아내#박팽년#이계전#성삼문#김문기(세조가 죽인 관료)#중추원(사법기관)">
+                                        7대세조
+                                    </button>
+                                </div>
+                            </div>
+                            <script>
+                            $(function () {
+                                $('[data-toggle="popover"]').popover()
+                            });
+                            $("#menu-toggle").click(function(e) {
+                              e.preventDefault();
+                              $("#wrapper").toggleClass("toggled");
+                            });
+                            </script> 
+                        </th:block>
+                    </div>
+                    <!-- 공통 하단-->
+                    <th:block th:replace="fragments/footer :: footerFragment"></th:block>
+                </div>
+        </div>
+    </body>
+</html>
