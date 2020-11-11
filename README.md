@@ -113,5 +113,3 @@
 #### chart
 
 ![chart](https://user-images.githubusercontent.com/59459751/98789561-cd431100-2445-11eb-830a-dcc3c824bccd.PNG)
-
-> 왕별 키워드 분석시 키워드와 함께 많이 언급된 단어들을 시각화
