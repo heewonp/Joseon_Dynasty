@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lagn="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+    <!-- 공통 헤더-->
+    <th:block th:replace="fragments/head :: headFragment"></th:block>
+
+    <body>
+        <div class="d-flex" id="wrapper">
+                <!-- 사이드바-->
+                <th:block th:replace="fragments/side :: sidebarFragment"></th:block>
+                <div id="page-content-wrapper">
+                    <th:block th:replace="fragments/header :: headerFragment"></th:block>
+                    <div class="container-fluid">
+                        <!-- 본문-->
+                        <th:block layout:fragment="content">
+                            <table id="lda" class="table table-striped table-bordered" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>재위순서</th>
+                                        <th>왕</th>
+                                        <th>키워드</th>
+                                        <th>lda</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>태조</td>
+                                        <td>백성</td>
+                                        <td><a th:href="@{lda/1대태조/1대태조_백성.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>태조</td>
+                                        <td>제도</td>
+                                        <td><a th:href="@{lda/1대태조/1대태조_제도.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>세종</td>
+                                        <td>백성</td>
+                                        <td><a th:href="@{lda/4대세종/4대세종_백성.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>세종</td>
+                                        <td>북진</td>
+                                        <td><a th:href="@{lda/4대세종/4대세종_북진.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>세종</td>
+                                        <td>훈민정음</td>
+                                        <td><a th:href="@{lda/4대세종/4대세종_훈민정음.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>중종</td>
+                                        <td>백성</td>
+                                        <td><a th:href="@{lda/11대중종/11대중종_백성.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>중종</td>
+                                        <td>조광조</td>
+                                        <td><a th:href="@{lda/11대중종/11대중종_조광조.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>경종</td>
+                                        <td>백성</td>
+                                        <td><a th:href="@{lda/20대경종/20대경종_백성.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>경종</td>
+                                        <td>폐단</td>
+                                        <td><a th:href="@{lda/20대경종/20대경종_폐단.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>경종</td>
+                                        <td>풍년</td>
+                                        <td><a th:href="@{lda/20대경종/20대경종_풍년.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>경종</td>
+                                        <td>흉년</td>
+                                        <td><a th:href="@{lda/20대경종/20대경종_흉년.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>22</td>
+                                        <td>정조</td>
+                                        <td>백성</td>
+                                        <td><a th:href="@{lda/22대정조/22대정조_백성.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>22</td>
+                                        <td>정조</td>
+                                        <td>폐단</td>
+                                        <td><a th:href="@{lda/22대정조/22대정조_폐단.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>순조</td>
+                                        <td>백성</td>
+                                        <td><a th:href="@{lda/23대순조/23대순조_백성.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>순조</td>
+                                        <td>폐단</td>
+                                        <td><a th:href="@{lda/23대순조/23대순조_폐단.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>순조</td>
+                                        <td>풍년</td>
+                                        <td><a th:href="@{lda/23대순조/23대순조_풍년.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>순조</td>
+                                        <td>흉년</td>
+                                        <td><a th:href="@{lda/23대순조/23대순조_흉년.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>26</td>
+                                        <td>고종</td>
+                                        <td>백성</td>
+                                        <td><a th:href="@{lda/26대고종/26대고종_백성.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>26</td>
+                                        <td>고종</td>
+                                        <td>폐단</td>
+                                        <td><a th:href="@{lda/26대고종/26대고종_폐단.html}"><i class="fa fa-bar-chart"></i></a></td>
+                                    </tr>
+                                    </tbody>
+                                    </table>
+                        <script>
+                            $(document).ready(function() {
+                                $('#lda').DataTable();
+                            });
+                            </script>
+                        </th:block>
+                    </div>
+                    <!-- 공통 하단-->
+                    <th:block th:replace="fragments/footer :: footerFragment"></th:block>
+                </div>
+                <script>
+                    $("#menu-toggle").click(function(e) {
+                      e.preventDefault();
+                      $("#wrapper").toggleClass("toggled");
+                    });
+                </script>
+        </div>
+    </body>
+</html>

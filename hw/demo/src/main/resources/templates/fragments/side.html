@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<th:block th:fragment="sidebarFragment">
+
+    <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading">조선에 당도한 것을 환영하오, 낮선이요</div>
+        <div class="list-group list-group-flush">
+          <a th:href="@{/}" class="list-group-item list-group-item-action bg-light">home</a>
+          <a th:href="@{/lda}" class="list-group-item list-group-item-action bg-light">LDA분석</a>
+          <a th:href="@{/keyword}" class="list-group-item list-group-item-action bg-light">연관키워드</a>
+          <a th:href="@{/chart}" class="list-group-item list-group-item-action bg-light">차트</a>
+        </div>
+      </div>
+
+</th:block>
+
+</html>
