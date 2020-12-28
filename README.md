@@ -14,9 +14,20 @@
 
 > 사용 언어 : Python3,JAVA11,Javascript,HTML
 >
->  개발 툴 : jupyter notebook,vscode
+> 개발 툴 : jupyter notebook,vscode
 >
 > 사용 프레임워크 : spring boot
+
+
+
+### 임무분담
+
+1. 조선왕조실록 데이터 크롤링 : 노용철, 박희원
+2. 논문 및 자료 조사 : 조유정
+3. 키워드 산출 및 LDA : 노용철, 이학민, 조유정, 박희원
+4. network 그래프 산출 : 박희원
+5. RNN 모델링 : 노용철
+6. 웹서비스 제작( bootstrap ) : 박희원
 
 ### 진행 과정
 
